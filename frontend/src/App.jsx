@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
 import "./App.css";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://hirelens-ai-49hl.onrender.com";
 const EMPTY_JOB = "";
 
 async function apiRequest(path, options = {}) {
